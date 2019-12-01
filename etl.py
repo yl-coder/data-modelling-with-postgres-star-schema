@@ -7,7 +7,6 @@ import uuid
 
 def process_song_file(cur, filepath):
     # open song file
-    print(filepath)
     df = pd.read_json(filepath, lines=True)
 
     # insert song record
